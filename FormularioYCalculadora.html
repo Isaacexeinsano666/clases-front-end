@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+
+  <input type="number" id="valor1">
+  <input type="number" id="valor2">
+  <button id="boton1" onclick="sumar()" class="btn btn-success">Sumar +</button>
+  <button id="boton2" onclick="restar()" class="btn btn-success">Restar -</button>
+  <button id="boton3" onclick="dividir()" class="btn btn-success">Dividir /</button>
+  <button id="boton4" onclick="multiplicar()" class="btn btn-success">Multiplicar *</button>
+  <h5>El resultado es:</h5>
+  <h5 id="texto-resultado1"></h5>
+
+  <input type="text" id="nombre1">
+  <input type="text" id="nombre2">
+  <input type="text" id="apellido1">
+  <input type="text" id="apellido2">
+  <button id="boton5" onclick="mostrar()" class="btn btn-success">Tu nombre es:</button>
+  <h5 id="texto-resultado2"></h5>
+  <body>
+    <script src="FormularioYCalculadora.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
