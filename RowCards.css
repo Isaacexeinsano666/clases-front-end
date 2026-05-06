@@ -5,12 +5,55 @@
     height: 300px;
 }
 
-.row {
-    justify-content: space-between;
-}
-
 .card {
     width: 200px;
     height: 120px;
     border: 1px solid #999;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 2ft;
+    gap: 16px;
+}
+
+.product {
+    min-height: 150px;
+    background: #f8f8f8;
+}
+
+/* Estilos base — móvil */​
+
+.gallery {​
+
+grid-template-columns: 1fr;​
+
+}​
+
+​
+
+/* Tablet */​
+
+@media (min-width: 768px) {​
+
+.gallery {​
+
+grid-template-columns: 1fr 1fr;​
+
+}​
+
+}​
+
+​
+
+/* Desktop */​
+
+@media (min-width: 1024px) {​
+
+.gallery {​
+
+grid-template-columns: 1fr 1fr 1fr;​
+
+}​
+
 }
